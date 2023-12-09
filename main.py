@@ -6,14 +6,14 @@ from passlib.context import CryptContext
 from starlette.sessions import SessionMiddleware
 from databases import Database
 
-# from app.api.api import api_router
+from app.api.api import api_router
 from app.core.config import settings
 
 database = Database(settings.database_url)
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 app = FastAPI()
-# app.include_router(api_router, prefix=settings.api_v1_prefix)
+app.include_router(api_router)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 app.add_midleware(SessionMiddleware, secret_key="secret_key")
