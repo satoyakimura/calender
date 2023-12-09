@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="home-container">
+        <form class="form" action="/signup_request" method="post">
+            <p>{{error_message}}</p>
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" required>
+            </p>
+            <input type="submit" value="Sign In">
+        </form>
+        <a class="signin-button" href="/">ホームへ</a>
+    </div>
+</body>

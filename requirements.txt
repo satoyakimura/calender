@@ -1,0 +1,11 @@
+fastapi
+Jinja2
+uvicorn
+databases[postgresql]
+psycopg2
+SQLAlchemy
+alembic
+pydantic-settings
+python-multipart
+passlib[bcrypt] 
+starlette

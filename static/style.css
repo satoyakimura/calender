@@ -1,0 +1,45 @@
+/* ホームコンテナのスタイル */
+body {
+    background-color: rgb(239, 229, 215);
+}
+.home-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(253, 204, 204);
+    text-align: center; /* センタリング */
+    border-radius: 10px;
+    padding: 20px; /* 余白 */
+
+}
+
+/* ボタンのスタイル */
+
+.home-container a {
+    display: inline-block; /*ブロック要素のように振る舞わせる*/
+    padding: 10px 20px; /* パディング */
+    margin: 10px; /* 余白 */
+    text-decoration: none; /* 下線を消す */
+    border-radius: 5px; /* 角丸 */
+    font-size: 16px; /* フォントサイズ */
+}
+
+
+.signup-button  {
+    color: rgb(255, 255, 255); /* 文字色 */
+    background-color: rgb(20, 65, 155);
+}
+
+
+.signin-button  {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0); 
+}
+
+.form {
+    padding: 20px;
+
+
+
+}
