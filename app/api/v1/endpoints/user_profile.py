@@ -1,3 +1,3 @@
 from fastapi import FastAPI
 
-schedule_router = FastAPI()
+profile_router = FastAPI()
