@@ -1,6 +1,4 @@
-Cython
-fastapi==0.85.0
-starlette==0.20.4
+fastapi
 Jinja2
 uvicorn
 databases[postgresql]
