@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from passlib.context import CryptContext
-from starlette.sessions import SessionMiddleware
+# from starlette.sessions import SessionMiddleware
 from databases import Database
 
 from app.api.api import api_router
@@ -16,7 +16,7 @@ app = FastAPI()
 app.include_router(api_router)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
-app.add_midleware(SessionMiddleware, secret_key="secret_key")
+# app.add_midleware(SessionMiddleware, secret_key="secret_key")
 
 @app.on_event("startup")
 async def startup():
