@@ -68,5 +68,6 @@ async def signin_request(request: Request, username: str = Form(...), password: 
         error_message = "ユーザー名またはパスワードが間違っています。"
         return templates.TemplateResponse("signin.html", {"request": request, "error_message": error_message})
 
+
 # @app.get("/signout")
-# async def log_out():
+

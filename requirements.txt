@@ -8,4 +8,3 @@ alembic
 pydantic-settings
 python-multipart
 passlib[bcrypt] 
-starlette
