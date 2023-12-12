@@ -1,3 +1,3 @@
-from fastapi import FastAPI
+# from fastapi import FastAPI
 
-profile_router = FastAPI()
+# profile_router = FastAPI()

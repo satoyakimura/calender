@@ -1,5 +1,5 @@
-from fastapi import FastAPI
+# from fastapi import FastAPI
 
-friends_router = FastAPI()
+# friends_router = FastAPI()
 
-# @friends_router.get()
+# # @friends_router.get()
