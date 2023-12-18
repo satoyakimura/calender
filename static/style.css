@@ -7,7 +7,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(253, 204, 204);
+    background-color: rgb(150, 224, 145);
     text-align: center; /* センタリング */
     border-radius: 10px;
     padding: 80px; /* 余白 */
