@@ -1,13 +1,13 @@
 /* ホームコンテナのスタイル */
 body {
-    background-color: rgb(179, 209, 110);
+    background-color: rgb(111, 209, 110);
 }
 .home-container {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(150, 224, 145);
+    background-color: rgb(100, 224, 145);
     text-align: center; /* センタリング */
     border-radius: 10px;
     padding: 80px; /* 余白 */
